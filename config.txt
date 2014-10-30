@@ -1,0 +1,18 @@
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+
+
+# Run osx-for-hackers.sh
+DIR=$(pwd)
+if [ -d ~/git ]
+then
+  cd ~/git
+else
+	mkdir ~/git && cd ~/git
+fi
+
+
+mkdir ~/Temp
+cd ~/Temp
+git clone https://gist.github.com/rmaqueda/52d249916e142999c26b
+sh 52d249916e142999c26b/osx-for-hackers.sh

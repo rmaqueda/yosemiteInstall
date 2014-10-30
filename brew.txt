@@ -1,0 +1,56 @@
+#brew
+	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	
+	brew doctor
+	
+	brew install bash-completion
+	brew install nmap
+	brew install bash-completion
+	brew install wget
+	brew install imagemagick 
+	brew install mogenerator
+	brew install optipng
+
+	brew install caskroom/cask/brew-cask
+	brew cask install sublime-text
+	brew cask install skype
+	#brew cask install caffeine
+	brew cask install charles
+	brew cask install cleanmymac
+	brew cask install istat-menus
+	brew cask install kaleidoscope
+	brew cask install paw
+	#brew cask install sketch sketch-tool
+	brew cask install testflight
+	brew cask install the-unarchiver
+	brew cask install things
+	brew cask install tower
+	brew cask install transmission-remote-gui
+	brew cask install adobe-creative-cloud
+	brew cask install android-studio-bundle
+	brew cask install java
+	#brew cask install dash
+	brew cask install dropbox
+	brew cask install google-drive
+	brew cask install google-drive
+	brew cask install google-hangouts
+	brew cask install google-chrome
+	brew cask install owncloud
+	brew cask install vlc
+		
+
+#cocoapods
+
+	sudo gem install cocoapods
+
+#git
+	git config --global color.ui true
+
+#ssh
+	ssh-keygen
+
+#keyboard
+
+	defaults write NSGlobalDomain KeyRepeat -int 0
+	defaults write NSGlobalDomain InitialKeyRepeat -int 15
+
