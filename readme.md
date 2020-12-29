@@ -108,8 +108,6 @@ Software
 		201.0.0.122     topota ricardenas.dyndns.tv    	# e0:69:95:02:fe:1c
 		201.0.0.151     retopo                         	# 14:10:9f:de:23:65
 		201.0.0.155	 	topoberry ricardenas.no-ip.org	# b8:27:eb:27:cf:f8
-		# ING
-		172.16.248.20   madprdtsadmin.sp.ingdirect.intranet terminalserver terminal
 
 *	LLaves SSH
 
